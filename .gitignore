@@ -1,5 +1,6 @@
 venv
 .env
 logs/
+Artifacts/
 __pycache__/
 *.pyc
