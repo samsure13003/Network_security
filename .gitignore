@@ -4,3 +4,4 @@ logs/
 Artifacts/
 __pycache__/
 *.pyc
+final_model/

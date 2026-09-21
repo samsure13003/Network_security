@@ -8,6 +8,12 @@ pymongo
 scikit-learn
 pyaml
 dill
-
+# ipykernel
+flask
+gunicorn
+matplotlib
+seaborn
+# xgboost
+# lightgbm
 
 # -e .
