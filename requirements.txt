@@ -8,10 +8,11 @@ pymongo
 scikit-learn
 pyaml
 dill
+mlflow
 # ipykernel
 flask
 gunicorn
-matplotlib
+# matplotlib
 seaborn
 # xgboost
 # lightgbm
