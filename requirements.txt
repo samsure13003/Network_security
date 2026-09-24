@@ -12,6 +12,7 @@ mlflow
 # ipykernel
 flask
 gunicorn
+dagshub
 # matplotlib
 seaborn
 # xgboost
