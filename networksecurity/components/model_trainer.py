@@ -3,6 +3,8 @@ import sys
 
 import mlflow
 
+
+
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 
@@ -31,6 +33,8 @@ from sklearn.ensemble import (
     ExtraTreesClassifier,
 )
 
+import dagshub
+dagshub.init(repo_owner='samsure13003', repo_name='Network_security', mlflow=True)
 
 class ModelTrainer:
     def __init__(self, model_trainer_config: ModelTrainerConfig, data_transformation_artifact: DataTransformationArtifact):

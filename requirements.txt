@@ -17,5 +17,8 @@ dagshub
 seaborn
 # xgboost
 # lightgbm
+fastapi
+uvicorn
+python-multipart
 
 # -e .
